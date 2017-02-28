@@ -11,6 +11,12 @@ regex.valid('email', 'example@email.com');
 regex.valid('float', '2.0');
 ```
 
+### Integer number
+
+```
+regex.valid('integer', '250');
+```
+
 ### Date
 
 dd/mm/yyyy dd-mm-yyyy or dd.mm.yyyy
