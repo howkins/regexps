@@ -45,6 +45,6 @@ regex = function () {
   };
 
   return {
-    "valid" :  pattern,
+    "valid" :  valid,
   }
 }();
