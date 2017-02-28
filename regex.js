@@ -1,6 +1,6 @@
 regex = window.regex || {};
 regex = function () {
-  pattern = function(type, subject, range){
+  valid = function(type, subject, range){
     if(typeof(range) == undefined){
       var range = '';
     }
@@ -45,6 +45,6 @@ regex = function () {
   };
 
   return {
-    "pattern" :  pattern,
+    "valid" :  pattern,
   }
 }();
