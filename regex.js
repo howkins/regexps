@@ -27,6 +27,7 @@ regex = function () {
           }
         }
         break;
+      // first comment from branch future_dayofweek
       case 'dayofweek':
         pattern = /^(sun|sunday|mon|monday|tue|tuesday|wed|wednesday|thu|thursday|fri|friday|sat|saturday)$/gi
         break;
