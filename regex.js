@@ -30,6 +30,7 @@ regex = function () {
       // first comment from branch future_dayofweek
       // first master commit line
       // second line future_dayofweek
+      // 3..
       case 'dayofweek':
         pattern = /^(sun|sunday|mon|monday|tue|tuesday|wed|wednesday|thu|thursday|fri|friday|sat|saturday)$/gi
         break;
