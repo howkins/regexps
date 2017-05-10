@@ -7,7 +7,6 @@ regex = function () {
     var re;
     var pattern;
     var splitArray;
-    // master line
     switch(type){
       case 'integer': pattern = /^\d+$/;break;
       case 'float': pattern = /^[-+]?[0-9]*\.[0-9]+([eE][-+]?[0-9]+)?$/;break;
