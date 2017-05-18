@@ -4,6 +4,7 @@ class Regex
 {
 	public static function valid($type, $subject){
 
+
 		
 		switch ($type) {
 			case 'integer': $pattern = '/^\d+$/'; break;
