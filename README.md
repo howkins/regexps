@@ -34,3 +34,4 @@ regex.valid('date', 'SUNDAY');
 ```
 regex.valid('date', '2', '0-100');
 ```
+f
